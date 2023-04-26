@@ -74,7 +74,7 @@ setuptools.setup(
         ],
         'test': ['pytest', 't5'],
         # Cloud TPU requirements.
-        'tpu': [f'jax[tpu] >= {_jax_version}'],
+        'tpu': [f'jax[cpu] >= {_jax_version}'],
         'gpu': [
             'ipdb==0.13.9',
             'fasttext==0.9.2',
